@@ -1,4 +1,4 @@
-require 'brightness'
+require 'spec_helper.rb'
 
 describe Brightness do
 	let(:brightness) { Brightness.new }
