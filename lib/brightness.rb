@@ -1,0 +1,4 @@
+class Brightness 
+
+
+end
