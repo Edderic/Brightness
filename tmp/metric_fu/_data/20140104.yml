@@ -1,0 +1,215 @@
+---
+:churn:
+  :changes: []
+  :class_churn: []
+  :method_churn: []
+  :changed_files:
+  - spec/brightness_spec.rb
+  - spec/spec_helper.rb
+  :changed_classes: []
+  :changed_methods: []
+:flay:
+  :total_score: '0'
+  :matches: []
+:roodi:
+  :total:
+  - "\e[32mFound 0 errors.\e[0m"
+  :problems:
+  - :file: Running Roodi checks
+    :line: 
+    :problem: 
+  - :file: Checked 1 files
+    :line: 
+    :problem: 
+:saikuro:
+  :files:
+  - :classes:
+    - :class_name: Brightness
+      :complexity: 3
+      :lines: 16
+      :methods:
+      - :name: Brightness#read_old_brightness
+        :complexity: 1
+        :lines: 2
+      - :name: Brightness#decrease
+        :complexity: 1
+        :lines: 2
+      - :name: Brightness#increase
+        :complexity: 1
+        :lines: 2
+    :filename: lib/brightness.rb
+  :classes:
+  - :name: Brightness
+    :complexity: 3
+    :lines: 16
+    :defs:
+    - :name: Brightness#increase
+      :complexity: 1
+      :lines: 2
+    - :name: Brightness#decrease
+      :complexity: 1
+      :lines: 2
+    - :name: Brightness#read_old_brightness
+      :complexity: 1
+      :lines: 2
+  :methods:
+  - :name: Brightness#read_old_brightness
+    :complexity: 1
+    :lines: 2
+  - :name: Brightness#decrease
+    :complexity: 1
+    :lines: 2
+  - :name: Brightness#increase
+    :complexity: 1
+    :lines: 2
+:reek:
+  :matches: []
+:flog:
+  :total: 0
+  :average: 0
+  :method_containers: []
+:cane:
+  :total_violations: 22
+  :violations:
+    :line_style:
+    - :line: lib/brightness.rb:3
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:5
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:7
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:9
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:11
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:13
+      :description: Line contains hard tabs
+    - :line: lib/brightness.rb:15
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:4
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:6
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:8
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:9
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:10
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:11
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:12
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:14
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:15
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:16
+      :description: Line contains hard tabs
+    - :line: spec/brightness_spec.rb:17
+      :description: Line contains hard tabs
+    - :line: spec/spec_helper.rb:4
+      :description: Line contains hard tabs
+    - :line: spec/spec_helper.rb:5
+      :description: Line contains hard tabs
+    :documentation:
+    - :description: No README found
+    :comment:
+    - :line: lib/brightness.rb:1
+      :class_name: Brightness
+:stats:
+  :codeLOC: 8
+  :testLOC: 24
+  :code_to_test_ratio: 3.0
+  :lines:
+  - :name: Libraries
+    :lines: 17
+    :loc: 8
+    :classes: 1
+    :methods: 3
+    :methods_per_class: 3
+    :loc_per_method: 0
+  - :name: Uncategorized specs
+    :lines: 30
+    :loc: 24
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Total
+    :lines: 47
+    :loc: 32
+    :classes: 1
+    :methods: 3
+    :methods_per_class: 3
+    :loc_per_method: 8
+:hotspots:
+  files:
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/brightness.rb
+      file_name: lib/brightness.rb
+      line_number: 
+      hash_key: '["lib/brightness.rb", nil, nil]'
+    details:
+      saikuro: average complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: Running Roodi checks
+      file_name: Running Roodi checks
+      line_number: 
+      hash_key: '["Running Roodi checks", nil, nil]'
+    details:
+      roodi: found 1 design problems
+  - location:
+      class_name: 
+      method_name: 
+      file_path: Checked 1 files
+      file_name: Checked 1 files
+      line_number: 
+      hash_key: '["Checked 1 files", nil, nil]'
+    details:
+      roodi: found 1 design problems
+  classes:
+  - location:
+      class_name: Brightness
+      method_name: 
+      file_path: lib/brightness.rb
+      file_name: lib/brightness.rb
+      line_number: 
+      hash_key: '["lib/brightness.rb", "Brightness", nil]'
+    details:
+      saikuro: average complexity is 1.0
+  methods:
+  - location:
+      class_name: Brightness
+      method_name: Brightness#read_old_brightness
+      file_path: lib/brightness.rb
+      file_name: lib/brightness.rb
+      line_number: 
+      hash_key: '["lib/brightness.rb", "Brightness", "Brightness#read_old_brightness"]'
+      simple_method_name: '#read_old_brightness'
+    details:
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Brightness
+      method_name: Brightness#decrease
+      file_path: lib/brightness.rb
+      file_name: lib/brightness.rb
+      line_number: 
+      hash_key: '["lib/brightness.rb", "Brightness", "Brightness#decrease"]'
+      simple_method_name: '#decrease'
+    details:
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Brightness
+      method_name: Brightness#increase
+      file_path: lib/brightness.rb
+      file_name: lib/brightness.rb
+      line_number: 
+      hash_key: '["lib/brightness.rb", "Brightness", "Brightness#increase"]'
+      simple_method_name: '#increase'
+    details:
+      saikuro: complexity is 1.0

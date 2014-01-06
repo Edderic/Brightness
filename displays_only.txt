@@ -1,0 +1,3 @@
+DisplayPort-0 
+DVI-0 
+DVI-1 
