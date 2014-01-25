@@ -1,0 +1,3 @@
+	Brightness: 0.60
+	Brightness: 0.60
+	Brightness: 0.61
