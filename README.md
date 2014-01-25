@@ -15,10 +15,10 @@ How to use
 3.  Go the "Shortcuts" tab.
 4.  Under "Custom Shortcuts," press the "+" button.
 5.  Fill in the details:
-      Name:  <code>Brightness Down</code>, Command: <code>%lt;path&gt;/lib/brightness.rb -d</code>
+      Name:  <code>Brightness Down</code>, Command: <code>&lt;path&gt;/lib/brightness.rb -d</code>
 
 6.  Press "Apply" and then click the shortcut. It'll say "new accelerator..."
 7.  Assign a keyboard shortcut that's available. I personally like ALT+SHIFT+F1.  
 8.  Repeat steps 4-8 for increasing brightness:
-      Name:  <code>Brightness Up</code>, Command: <code>%lt;path&gt;</code>/lib/brightness.rb -i</code>
+      Name:  <code>Brightness Up</code>, Command: <code>&lt;path&gt;</code>/lib/brightness.rb -i</code>
 9.  Profit. CHA-CHING.
